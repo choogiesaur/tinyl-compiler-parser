@@ -4,5 +4,7 @@ tinyL machine code compiler and recursive descent parser for Principles of Progr
 Usage:
 
 $ make
+
 $ ./compile <testfile> //test programs located in 'tests' directory
+
 $ ./run tinyL.out
