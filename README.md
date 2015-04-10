@@ -5,6 +5,6 @@ Usage:
 
 $ make
 
-$ ./compile <testfile> //test programs located in 'tests' directory
+$ ./compile test_file //test programs located in 'tests' directory
 
 $ ./run tinyL.out
