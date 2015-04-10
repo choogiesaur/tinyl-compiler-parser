@@ -9,7 +9,7 @@
 
 CCFLAGS = -ggdb -Wall
 
-all: compile optimize run
+all: compile run
 
 compile: Compiler.c InstrUtils.c InstrUtils.h Utils.c Utils.h
 	gcc $(CCFLAGS) Compiler.c InstrUtils.c Utils.c -o compile
@@ -27,7 +27,7 @@ pretty: Compiler.c InstrUtils.c InstrUtils.h Utils.c Utils.h
 	indent -linux InstrUtils.c InstrUtils.h
 	indent -linux Utils.c Utils.h
 	indent -linux Interpreter.c
-	indent -linux Optimizer.c
+#	indent -linux Optimizer.c
 
 clean:
 	rm -rf compile optimize run tinyL.out
