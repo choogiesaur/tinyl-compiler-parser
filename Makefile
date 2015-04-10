@@ -1,11 +1,10 @@
-#/*
-# *********************************************
-# *  314 Principles of Programming Languages  *
-# *  Spring 2014                              *
-# *  Authors: Ulrich Kremer                   *
-# *           Hans Christian Woithe           *
-# *********************************************
-# */
+#
+#*********************************************
+#Firas Sattar
+#Spring 2014
+#CS314 Principles of Programming Languages
+#*********************************************
+#
 
 CCFLAGS = -ggdb -Wall
 
